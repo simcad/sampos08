@@ -1,0 +1,55 @@
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:13 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:32 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:34 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:34 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:35 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:44 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:44 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:51 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:52 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 22:53 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Tuesday 05 September 2017 at 23:03 with the following information:
+
+
+Column 'c_file_name ' does not belong to table Table.

@@ -1,0 +1,30 @@
+﻿<div class="panel panel-primary ">
+    <!--<div class="panel-heading">Customer Detail</div>-->
+    <div class="panel-body ">
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <img ng-src="{{customer.Image ? customer.Image : 'customerimages/default-image.png'}}"
+                     class="img-circle"
+                     style="max-width:30px"
+                     alt='customer image' />
+            </div>
+            <div class="col-sm-9">
+                <div style="font-weight:normal;">
+                                                                                        
+                    
+
+                    <a ng-click="supplierDetail(supplier.sid)" style="cursor:pointer">{{supplier.supplier_id}} {{supplier.supplier_name}}</a>
+                    <span class="pull-right" title="Delete supplier">
+                        <i ng-click="deleteSupplier($event, supplier.sid)" class="glyphicon glyphicon-trash"></i>
+                    </span>
+                </div>
+               
+
+               
+            </div>
+        </div>
+
+    </div>
+</div>

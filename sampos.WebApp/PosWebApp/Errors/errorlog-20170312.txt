@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 12 March 2017 at 16:03 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 12 March 2017 at 16:04 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 12 March 2017 at 16:04 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 12 March 2017 at 16:52 with the following information:
+
+
+Syntax error in query expression 'stock_desc like '%blue%' or stock_model like %'blue%''.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 12 March 2017 at 16:53 with the following information:
+
+
+Syntax error in query expression 'stock_desc like '%peter%' or stock_model like %'peter%''.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 12 March 2017 at 16:53 with the following information:
+
+
+Syntax error in query expression 'stock_desc like '%ray%' or stock_model like %'ray%''.

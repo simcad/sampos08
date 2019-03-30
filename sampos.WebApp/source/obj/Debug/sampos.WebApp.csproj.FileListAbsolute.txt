@@ -1,0 +1,7 @@
+C:\Users\Peng\Documents\Simcad\Projects\sampos.WebApp\source\bin\sampos.WebApp.dll.config
+C:\Users\Peng\Documents\Simcad\Projects\sampos.WebApp\source\bin\sampos.WebApp.dll
+C:\Users\Peng\Documents\Simcad\Projects\sampos.WebApp\source\bin\sampos.WebApp.pdb
+C:\Users\Peng\Documents\Simcad\Projects\sampos.WebApp\source\obj\Debug\sampos.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Peng\Documents\Simcad\Projects\sampos.WebApp\source\obj\Debug\sampos.WebApp.csproj.CopyComplete
+C:\Users\Peng\Documents\Simcad\Projects\sampos.WebApp\source\obj\Debug\sampos.WebApp.dll
+C:\Users\Peng\Documents\Simcad\Projects\sampos.WebApp\source\obj\Debug\sampos.WebApp.pdb

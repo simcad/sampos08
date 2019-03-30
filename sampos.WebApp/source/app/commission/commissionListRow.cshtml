@@ -1,0 +1,31 @@
+﻿<div class="panel panel-primary ">
+    <!--<div class="panel-heading">Customer Detail</div>-->
+    <div class="panel-body ">
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <img ng-src="{{customer.Image ? customer.Image : 'customerimages/sales_person-m1.png'}}"
+                     class="img-circle"
+                     style="max-width:30px"
+                     alt='customer image' />
+            </div>
+            <div class="col-sm-9">
+                <div style="font-weight:normal;">
+                    <a ng-click="commissionDetail(commission.sales_commission_id)" style="cursor:pointer">{{commission.sales_commission_desc}}</a>
+                    <span class="pull-right" title="Delete sales commission">
+                        <i ng-click="deleteCommission($event, commission.sales_commission_id)" class="glyphicon glyphicon-trash"></i>
+                    </span>
+                </div>
+                <!--public string group_id { get; set; }
+                public string group_desc { get; set; }
+                public int group_min { get; set; }
+                public int group_max { get; set; }
+                public bool group_Servcie { get; set; }-->
+
+                <!--<div>{{group.group_id}} {{group.group_desc}}</div>-->
+            </div>
+        </div>
+
+    </div>
+</div>

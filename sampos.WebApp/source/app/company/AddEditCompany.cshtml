@@ -1,0 +1,228 @@
+﻿<div class="modal-content">
+    <form name="form">
+        <div class="modal-header">
+            <button type="button"
+                    class="close"
+                    ng-click="cancel()"
+                    data-dismiss="modal"
+                    aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">{{headerTitle}}</h4>
+        </div>
+      <div class="panel-primary"></div>
+        <div class="panel-info  ScrollBlock" style="height:500px;">
+            <div class="modal-body">
+                <div class="form-horizontal">
+
+
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">company_id</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_id" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Name</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_name" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Email</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_name1" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Address</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_address" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">District</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_district" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">City</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_city" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Postcode</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_postcode" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">State</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_state" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Country</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_country" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Phone</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_phone" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Fax</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_fax" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">Start_operating_month</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_start_operating_month" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">End_operating_month</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_end_operating_month" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Currency symbol</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_currency_symbol" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Currency name</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_currency_name" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Registration</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_registration" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Access code</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_access_code" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">hd_space</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.hd_space" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">hd_freespace</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.hd_freespace" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">hd_date</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.hd_date" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">hd_rom</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.hd_rom" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">company_password</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.company_password" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                <label for="inputEmail" class="col-sm-3 control-label">logo</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.logo" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">Logo file name</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.logo_f" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">ABN</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.ABN" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 control-label">GST Registration #</label>
+                <div class="col-sm-8">
+                <input type="text" class="form-control" ng-model="company.GST_ID" ng-required="false">
+                </div>
+                </div>
+                <div class="form-group">
+
+                <label for="inputEmail" class="col-sm-3 control-label">GST register date</label>
+                <div class="input-group col-sm-8" style="padding-left:15px;padding-right:15px;">
+                <input type="text" class="form-control" ng-model="company.GST_register_date" id="GST_register_date"
+                placeholder="(dd/mm/yyyy)" name="GST_register_date"
+                datepicker-popup="{{format}}" is-open="status[1].opened"
+                datepicker-options="dateOptions" close-text="Close" />
+                <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="opend($event, 1)"><i class="glyphicon glyphicon-calendar"></i></button>
+                </span>
+                </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        
+        <div class="modal-footer">
+            <button type="button"
+                    ng-click="save()"
+                    ng-disabled="form.$invalid"
+                    class="btn btn-success">
+                Save
+            </button>
+            <button type="button"
+                    ng-click="cancel()"
+                    class="btn btn-danger"
+                    data-dismiss="modal">
+                Cancel
+            </button>
+
+            <div class="alert-danger" ng-if="error.length > 0 " ng-bind="error"></div>
+
+        </div>
+    </form>
+</div>

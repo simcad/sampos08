@@ -1,0 +1,141 @@
+﻿    @*<script src="../app/setup/setupCtrl.js"></script>*@
+@*<h2 class="badge">{{pageTitle}}</h2>*@
+
+
+
+<h2></h2>
+<p>{{message}} </p>
+
+<p ng-bind="message"></p>
+<div class="container">
+    <div class="grid fluid">
+        <div class="row">
+
+            <div class="col-sm-1">
+                <a ui-sref='supplier'>
+                    <div class="small">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/sales_person-m1.png'}}"
+                             class="img-circle"
+                             style="max-width:90px;"
+                             align="middle"
+                             alt='customer image' />
+                        <p align="center">Supplier</p>
+                        <b></b>
+                    </div>
+                </a>
+
+
+            </div>
+            <div class="col-sm-1">
+
+                <a ui-sref='group'>
+                    <div class="small">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/customer-m3.png'}}"
+                             class="img-circle"
+                             style="max-width:90px"
+                             alt='customer image' />
+                        <p align="center">Product Group</p>
+
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-sm-1">
+
+                <a ui-sref='brand'>
+                    <div class="small">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/report1.png'}}"
+                             class="img-circle"
+                             style="max-width:90px"
+                             alt='customer image' />
+
+
+                        <p align="center">Brand</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-1">
+
+                <a ui-sref='user'>
+                    <div class="small">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/customer-m2.png'}}"
+                             class="img-circle"
+                             style="max-width:90px"
+                             alt='customer image' />
+                        <p align="center">User</p>
+
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+        <div class=" row">
+            <div class="col-sm-1">
+
+                <!--<a ui-sref='brand'>-->
+                <a ui-sref='commission'>
+                    <div class="small">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/bigstock1.jpg'}}"
+                             class="img-circle"
+                             style="max-width:90px"
+                             alt='customer image' />
+
+                        <p align="center">Comission</p>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-1">
+
+                <a ui-sref="sysmessage">
+                    <div class="small">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/default-image-m1.png'}}"
+                             class="img-circle"
+                             style="max-width:90px"
+                             alt='customer image' />
+
+
+                        <p align="center">Receipt Messages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-1">
+
+                <a ui-sref='sequencenumber'>
+                    <div class="small">
+
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/default-image-m2.png'}}"
+                             class="img-circle"
+                             style="max-width:90px"
+                             alt='customer image' />
+
+                        <p align="center">Reset sequence number</p>
+                    </div>
+
+                </a>
+            </div>
+
+
+
+            <div class="col-sm-1">
+
+                <a ui-sref='creditcard'>
+                    <div class="small">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/payment_icon-m1.png'}}"
+                             class="img-circle"
+                             style="max-width:90px"
+                             alt='customer image' />
+
+                        <p align="center">Credit card commissions</p>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+

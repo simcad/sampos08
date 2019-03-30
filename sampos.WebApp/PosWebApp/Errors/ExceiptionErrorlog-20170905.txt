@@ -1,0 +1,195 @@
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:44 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:46 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:47 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:48 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:50 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:51 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:51 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:52 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:52 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:53 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:54 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 242
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CreditcardDataController.cs:line 42
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:56 with the following information:
+
+
+Column 'm_msg' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id)
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id)
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Tuesday 05 September 2017 at 23:56 with the following information:
+
+
+Column 'c_file_name ' does not belong to table Table.
+
+ Stack Trace:
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.GetCreditcardCharges(String id)
+   at samposoapp.Controllers.CreditcardDataController.GetCreditcardId(String id)
+
+ Souce:
+System.Data
+GetCommissionId - model

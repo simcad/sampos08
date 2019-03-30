@@ -1,0 +1,45 @@
+﻿<div 
+     class="panel panel-primary" >
+        <!--<div class="panel-heading">Customer Detail</div>-->
+        <div class="panel-body ">
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img ng-src="{{customer.Image ? customer.Image : 'customerimages/glasses48.png'}}"
+                         class="img-circle"
+                         style="max-width:30px"
+                         alt='customer image' />
+                </div>
+                <div class="col-sm-9">
+                    <div style="font-weight:bold;">
+                        <a ng-click="stockDetail(stock.idd,stock.barcode)" style="cursor:pointer">{{stock.barcode}}</a>
+                        <span class="pull-right" title="Delete stock" ng-show="false">
+                            <!--<i ng-click="deleteStock($event, stock.idd)" class="glyphicon glyphicon-trash"></i>-->
+                        </span>
+                    </div>
+                    {{stock.idd}} {{stock.stock_desc}}
+                </div>
+            </div>
+
+        </div>
+    </div>
+<div class="container">
+    <h2>Collapsible List Group</h2>
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse1">Collapsible list group</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+                <ul class="list-group">
+                    
+                    <li class="list-group-item">{{stock.idd}} {{stock.stock_desc}}</li>
+                </ul>
+                <div class="panel-footer">Footer</div>
+            </div>
+        </div>
+    </div>
+</div>
+

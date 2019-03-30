@@ -1,0 +1,94 @@
+﻿
+
+<p>
+        
+</p>
+
+
+
+<p ng-bind="message"></p>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="col-sm-2">
+                <a ui-sref='company'>
+                    <div class="alert-info1" align="center">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/logo.png'}}"
+                             class="img-circle" style="max-width:150px"
+                             title="Company"
+                             alt='customer image' />
+                        Company
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col-sm-2">
+
+                <a ui-sref='customer'>
+                    <div class="alert-info1" align="center">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/staff-m1.png'}}"
+                             class="img-circle"
+                             style="max-width:150px" title="Customer"
+                             alt='customer image' />
+
+                        Customer
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-sm-2">
+
+                <a ui-sref='stock'>
+                    <div class="alert-info1" align="center">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/report1.png'}}"
+                             class="img-circle"
+                             style="max-width:150px" title="Stock search"
+                             alt='customer image' />
+
+                        Stock
+                    </div>
+                </a>
+            </div>
+
+
+         
+
+            <div class="col-sm-2">
+                <a ui-sref='sale' ng-hide="false">
+                    <div class="alert-info1" align="center" >
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/cashRegister-m1.png'}}"
+                             class="img-circle"
+                             style="max-width:150px;" title="Sale" 
+                             alt='customer image' />
+                        Sale
+                    </div>
+
+                </a>
+            </div>
+        </div>
+</div>
+<p></p>
+    <div class="row">
+        <div class="col-sm-12">
+
+            <div class="col-sm-2">
+                <a ui-sref='setup'>
+                    <div class="alert-info1" align="center">
+                        <img ng-src="{{customer.Image ? customer.Image : 'customerimages/wheel_m2.png'}}"
+                             class="img-circle"
+                             style="max-width:150px;" title="Set up"
+                             align="middle"
+                             alt='customer image' />
+
+                        Set up
+                    </div>
+
+                </a>
+                
+            </div>
+
+
+        </div>
+    </div>
+

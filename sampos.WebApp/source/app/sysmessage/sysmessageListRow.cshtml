@@ -1,0 +1,26 @@
+﻿<div class="panel panel-primary ">
+    <!--<div class="panel-heading">Customer Detail</div>-->
+    <div class="panel-body ">
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <img ng-src="{{customer.Image ? customer.Image : 'customerimages/report1.png'}}"
+    class="img-circle"
+                     style="max-width:30px"
+                     alt='customer image' />
+            </div>
+            <div class="col-sm-9">
+                <div style="font-weight:normal;">
+                    <a ng-click="sysmessageDetail(sysmessage.m_id)" style="cursor:pointer"> {{sysmessage.m_msg}}</a>
+                    <span class="pull-right" title="Delete sales sysmessage">
+                        <a ng-click="deleteSysmessage($event, sysmessage.m_id)" class="glyphicon glyphicon-trash"></a>
+                        
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</div>

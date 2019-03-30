@@ -1,0 +1,409 @@
+﻿<div class="modal-content">
+    <form name="form">
+        <div class="modal-header">
+            <button type="button"
+                    class="close"
+                    ng-click="cancel()"
+                    data-dismiss="modal"
+                    aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">{{headerTitle}}</h4>
+
+
+      
+
+            <div class="alert-danger" ng-if="error.length > 0 " ng-bind="error"></div>
+
+
+        </div>
+        <div class="modal-body">
+            <div class="form-horizontal">
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Barcode</label>
+                    <div class="input-group col-sm-8" style="padding-left:15px;padding-right:15px;">
+                        <!--<div class="col-sm-8">-->
+                            <input type="text" class="form-control" ng-model="stock.barcode" ng-required="false">
+                            <span class="input-group-btn">
+                                <button type="button" ng-show="stock.idd==0" class="btn btn-info" ng-click="getBarcode()"><i class="glyphicon glyphicon-barcode"></i></button>
+                            </span>
+                        </div>
+                    </div>
+
+              
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Supplier</label>
+                    <div class="col-sm-8" ng-required="false">
+                        <select class="form-control " name="supplier_id" id="supplier_id" ng-model="stock.supplier_id">
+                            <option ng-repeat="supplier in suppliers track by supplier.supplier_id" value="{{supplier.supplier_id}}" ng-selected="supplier.supplier_id==stock.supplier_id">{{supplier.supplier_name}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Group</label>
+                    <div class="col-sm-8">
+                        <select class="form-control " name="group_id" id="group_id" ng-model="stock.group_id" ng-required="false">
+                            <option ng-repeat="group in groups track by group.group_id" value="{{group.group_id}}" ng-selected="group.group_id==stock.group_id">{{group.group_desc}}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Brand</label>
+                    <div class="col-sm-8">
+                        <select class="form-control " name="brand_id" id="brand_id" ng-model="stock.brand_id" ng-required="false">
+                            <option ng-repeat="brand in brands track by brand.brand_id" value="{{brand.brand_id}}" ng-selected="brand.brand_id==stock.brand_id">{{brand.brand_desc}}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Model</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_model" ng-required="false">
+                    </div>
+                </div>
+                
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Size</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_size" ng-required="false" >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Colour</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_colour" ng-required="false" ng-blur="getDesc()">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Description</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_desc" ng-required="false" >
+                       
+                    </div>
+                    <!--<div class="col-sm-4">
+                        
+                        <p model="myinitialvalue"></p>
+                    </div>-->
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Cost code</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_cost_code" ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Average price</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_average_price" ng-required="false">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Cost price</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_cost_price" ng-required="false" ng-blur="addGST(stock.stock_cost_price,6)">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Cost price with GST</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_GST_price"
+                               ng-required="false">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Sales price</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_sales_price"
+                               ng-required="false">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Quantity</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_quantity_on_hand"
+                               ng-required="false">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Max discount</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_max_discount"
+                               ng-required="false">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Max/Min quantity</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" ng-model="stock.stock_max" ng-required="false">
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" ng-model="stock.stock_min" ng-required="false">
+                    </div>
+                </div>
+                <!--<div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Min stock quantity</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_min" ng-required="false">
+                    </div>
+                </div>-->
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Company</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.company_id"
+                               ng-required="false">
+                    </div>
+                </div>
+               
+
+
+                <!--<div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Last transfer date</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.stock_last_transfer_date" ng-required="false" id="last_date1">
+                    </div>
+                </div>-->
+
+
+                <div class="form-group ">
+                    
+                    <label for="inputEmail" class="col-sm-3 control-label">Last transfer date</label>
+                    <div class="input-group col-sm-8" style="padding-left:15px;padding-right:15px;">
+                        <input type="text" class="form-control" ng-model="stock.stock_last_transfer_date" id="last_date"
+                               placeholder="(dd/mm/yyyy)" name="last_date"
+                               datepicker-popup="{{format}}" is-open="status[1].opened" 
+                               datepicker-options="dateOptions" close-text="Close" />
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" ng-click="opend($event, 1)"><i class="glyphicon glyphicon-calendar"></i></button>
+                        </span>
+                    </div>
+
+                    
+                </div>
+
+
+
+                <div class="form-group" ng-show="true">
+                    <label for="inputEmail" class="col-sm-3 control-label">Expiry date</label>
+
+                    <div class="input-group col-sm-8" style="padding-left:15px;padding-right:15px;">
+                        <input type="text" class="form-control" ng-model="stock.stock_exp_date" id="exp_date"
+                               placeholder="(dd/mm/yyyy)" name="exp_date"
+                               datepicker-popup="{{format}}" is-open="status[2].opened"
+                               datepicker-options="dateOptions" close-text="Close" />
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" ng-click="opend($event, 2)"><i class="glyphicon glyphicon-calendar"></i></button>
+                        </span>
+                    </div>
+
+
+                </div>
+
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Location </label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_location_desc"
+                               ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Location section</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_location_section"
+                               ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Location shelf</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_location_shelf"
+                               ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Tax rate</label>
+                    <div class="col-sm-4">
+
+                        <select class="form-control " name="tax_rate_id" id="tax_rate_id" ng-model="stock.tax_rate_id" ng-required="false" ng-change=" stock.tax_rate=(gsts|filter:{ID:stock.tax_rate_id})[0].GST">
+                            <option ng-repeat="gst in gsts track by gst.ID" value="{{gst.ID}}" ng-selected="gst.ID==stock.tax_rate_id">{{gst.GST}}</option>
+                        </select>
+                    </div>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" ng-model="stock.tax_rate" ng-required="false" ng-init="stock.tax_rate=6">
+                        </div>
+                   
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Tax rate id</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.tax_rate_id" ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Tax rate</label>
+                    <div class="col-sm-8">
+
+                        <select class="form-control " name="tax_rate_id" id="tax_rate_id" ng-model="stock.tax_rate_id" ng-required="false" ng-change=" stock.tax_rate=(gsts|filter:{ID:stock.tax_rate_id})[0].GST">
+                            <option ng-repeat="gst in gsts track by gst.ID" value="{{gst.ID}}" ng-selected="gst.ID==stock.tax_rate_id">{{gst.GST}}</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Tax (Yes/No)</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="stock.tax_yesno" ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Tax file no</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.tax_file_no"
+                               ng-required="false">
+                    </div>
+                </div>
+
+                <div class="form-group" ng-show="true">
+                    <label for="inputEmail" class="col-sm-3 control-label">Notes</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_notes"
+                               ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Margin</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_margin"
+                               ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-2 control-label">Unit of Measure</label>
+                    <div class="col-sm-4">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_UOM"
+                               ng-required="false">
+                    </div>
+                    <label for="inputEmail" class="col-sm-2 control-label">Deleted flag</label>
+                    <div class="col-sm-4">
+                        <input type="checkbox" form-control" ng-model="stock.stock_flag" ng-required="false">
+                    </div>
+                </div>
+                <!--<div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label">Deleted flag</label>
+                    <div class="col-sm-4">
+                        <input type="checkbox" form-control" ng-model="stock.stock_flag" ng-required="false">
+                    </div>
+                </div>-->
+
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Stock internal Id (idd)</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.idd"
+                               ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Order level</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.order"
+                               ng-required="false">
+                    </div>
+                </div>
+                <!--<div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">id</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.id"
+                               ng-required="false">
+                    </div>
+                </div>-->
+
+
+
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">Sales price 1</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_sales_price1"
+                               ng-required="false">
+                    </div>
+                </div>
+                <div class="form-group" ng-show="false">
+                    <label for="inputEmail" class="col-sm-3 control-label">GST price 1</label>
+                    <div class="col-sm-8">
+                        <input type="text"
+                               class="form-control"
+                               ng-model="stock.stock_GST_price1"
+                               ng-required="false">
+                    </div>
+                </div>
+                <!---- testing ---->
+
+
+
+
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button"
+                    ng-click="save()"
+                    ng-disabled="form.$invalid"
+                    class="btn btn-success">
+                Save
+            </button>
+            <button type="button"
+                    ng-click="cancel()"
+                    class="btn btn-danger"
+                    data-dismiss="modal">
+                Cancel
+            </button>
+
+            <div class="alert-danger" ng-if="error.length > 0 " ng-bind="error"></div>
+
+        </div>
+    </form>
+</div>

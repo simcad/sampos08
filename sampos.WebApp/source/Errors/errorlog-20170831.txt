@@ -1,0 +1,5 @@
+----------------------------------------------------------------------------------------------------
+Error log on Thursday 31 August 2017 at 23:03 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.

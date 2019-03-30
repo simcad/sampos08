@@ -1,0 +1,53 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-sm-4" style="left:-20px;">
+            <!--<h1>Manage Customers</h1>-->
+            <!-- Search customers -->
+            <h3>Search Customers</h3>
+            <div class="input-group">
+                <input type="text"
+                       ng-model="searchText"
+                       class="form-control"
+                       placeholder="Enter search text">
+                <span class="input-group-addon" id="basic-addon">
+                    <i class="glyphicon glyphicon-search" ng-click="searchCusts()"></i>
+
+                </span>
+
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-2">
+            <button ng-click="addCustomer()" class="btn btn-success btn-sm">
+                <i class="glyphicon glyphicon-plus"></i> Add Customer
+            </button>
+        </div>
+
+
+
+    </div>
+    <div class="row"> <p></p> </div>
+    
+    <div class="row">
+
+        <div class="col-sm-3" style="border:1px inset #808080;  max-height:450px; height:450px; overflow-y:scroll" id="custpanelheightlist">
+
+            <br />
+            <div class="col-sm-12 customer-row animate" ng-repeat="customer in customers">
+                <as-customer></as-customer>
+            </div>
+
+        </div>
+       
+        <div class="col-sm-9" style="border:1px solid #999; max-height:450px; height:450px;" id="custpanelheight" >
+
+            <div ui-view></div>
+            
+
+        </div>
+    
+    </div>
+</div>

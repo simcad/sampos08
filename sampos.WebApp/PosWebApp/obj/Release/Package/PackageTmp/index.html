@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+
+</head>
+<body ng-app="MyApp" class="animate">
+
+    <div class="navbar navbar-inverse navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a sref="home" class="navbar-brand">Authentication</a>-->
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a ui-sref='home'><i class="glyphicon glyphicon-home" style="color:red"></i> Home</a></li>
+                    <li><a ui-sref='customer'>Customer</a></li>
+                    <li><a ui-sref='stock'>Stock</a></li>
+                    <li><a ui-sref='setup'>Setup</a></li>
+                    <li><a ui-sref='about'>About</a></li>
+                    <li><a ui-sref='contact'>Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="loading-dialog" data-loading>
+        <h1>Loading</h1>
+    </div>
+
+    <div class="container body-content">
+        <div class="alert-danger" ng-if="error.length > 0" ng-bind="error"></div>
+        <div ui-view> </div>
+    </div>
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/angular-file-upload.js"></script>
+    <!--<script src="Scripts/jquery.ui.datepicker-en-AU.js"></script>-->
+
+    <script src="Scripts/date-en-AU.js"></script>
+
+    <script src="Scripts/datejs.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Application files -->
+    <script src="app/app.js"></script>
+    <script src="app/home/countdown.js"></script>
+    <script src="app/home/homectrl.js"></script>
+
+    <script src="app/about/aboutctrl.js"></script>
+    <script src="app/contact/contactctrl.js"></script>
+    <script src="app/customer/customerCtrl.js"></script>
+    <script src="app/customer/customerContactCtrl.js"></script>
+    <script src="app/stock/stockCtrl.js"></script>
+    <script src="app/group/groupCtrl.js"></script>
+    <script src="app/setup/setupCtrl.js"></script>
+    <script src="app/brand/brandCtrl.js"></script>
+    <script src="app/supplier/supplierCtrl.js"></script>
+    <script src="app/company/companyCtrl.js"></script>
+    <script src="app/commission/commissionCtrl.js"></script>
+    <script src="app/user/userCtrl.js"></script>
+    <script src="app/sysmessage/sysmessageCtrl.js"></script>
+    <script src="app/creditcard/creditcardCtrl.js"></script>
+    <script src="app/sequencenumber/sequencenumberCtrl.js"></script>
+    <!--<link href="Content/jquery-ui.min.css" rel="stylesheet" />-->
+    <!-- Application Services -->
+    <script src="app/services/Customer.js"></script>
+    <script src="app/services/Stock.js"></script>
+    <script src="app/services/Group.js"></script>
+    <script src="app/services/Brand.js"></script>
+    <script src="app/services/Supplier.js"></script>
+    <script src="app/services/Company.js"></script>
+    <script src="app/services/Commission.js"></script>
+    <script src="app/services/User.js"></script>
+    <script src="app/services/Sysmessage.js"></script>
+    <script src="app/services/Creditcard.js"></script>
+    <script src="app/services/Sequencenumber.js"></script>
+    
+    <!-- Application Directives -->
+    <script src="app/directives/asCustomer.js"></script>
+    <script src="app/directives/asStock.js"></script>
+    <script src="app/directives/asGroup.js"></script>
+    <script src="app/directives/asBrand.js"></script>
+    <script src="app/directives/asSupplier.js"></script>
+    <script src="app/directives/asCompany.js"></script>
+    <script src="app/directives/asCommission.js"></script>
+    <script src="app/directives/asUser.js"></script>
+    <script src="app/directives/asSysmessage.js"></script>
+    <script src="app/directives/asCreditcard.js"></script>
+    <script src="app/directives/asSequencenumber.js"></script>
+    <!--metro css-->
+
+
+
+</body>
+    
+      
+</html>

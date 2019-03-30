@@ -1,0 +1,76 @@
+﻿<p></p>
+<div class="panel panel-primary ">
+    <div class="panel-heading">Sequece number</div>
+    <div class="panel-body ">
+        <div>
+            <button ng-click="editSequencenumber()"
+                    ng-hide="currentSequencenumber == null"
+                    class="btn btn-primary">
+                Edit
+            </button>
+        </div>
+
+
+        <fieldset>
+            <legend></legend>
+
+            <!--<div class="col-sm-3">
+            <img ng-src="{{currentCustomer.Image ? currentCustomer.Image : 'customerimages/default-image.png'}}"
+                 class="img-circle " style="max-width:50px"
+                 alt='customer image' />
+        </div>-->
+            <div class="col-sm-12">
+                <div class="form-group">
+                    <div class="col-sm-12 col-sm-offset-0">
+
+
+
+                            <!--<div class="alert-danger">{{currentSequencenumber.sequence_number_type}}</div>-->
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Type </label>
+                    <div class="col-sm-8">
+                        la
+                        <input type="text" class="form-control" ng-model="currentSequencenumber.sequence_number_type" disabled>
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Description</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="currentSequencenumber.sequence_desc" disabled>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Last number</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" ng-model="currentSequencenumber.sequence_number" disabled>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+        </fieldset>
+
+    </div>
+</div>
+<div ui-view></div>
+
+
+

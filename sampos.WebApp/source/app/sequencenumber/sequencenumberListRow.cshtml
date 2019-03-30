@@ -1,0 +1,24 @@
+﻿<div class="panel panel-primary ">
+    <!--<div class="panel-heading">Customer Detail</div>-->
+    <div class="panel-body ">
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <img ng-src="{{customer.Image ? customer.Image : 'customerimages/report1.png'}}"
+    class="img-circle"
+                     style="max-width:30px"
+                     alt='customer image' />
+            </div>
+            <div class="col-sm-9">
+                <div style="font-weight:normal;">
+                                                  
+                    <a ng-click="sequencenumberDetail(sequencenumber.sequence_number_type)" style="cursor:pointer"> {{sequencenumber.sequence_number_type}}</a>
+                    <span class="pull-right" title="Delete credit card">
+                        <!--<a ng-click="deleteSequencenumber($event,sequencenumber.sequence_number_type)" class="glyphicon glyphicon-trash" style="cursor:pointer"></a>-->
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

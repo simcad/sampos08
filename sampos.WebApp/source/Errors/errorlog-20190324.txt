@@ -1,0 +1,45 @@
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 10:24 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 10:28 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 10:37 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 10:42 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 12:32 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 12:43 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 14:38 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 14:43 with the following information:
+
+
+Input string was not in a correct format.
+----------------------------------------------------------------------------------------------------
+Error log on Sunday 24 March 2019 at 14:49 with the following information:
+
+
+Specified cast is not valid.

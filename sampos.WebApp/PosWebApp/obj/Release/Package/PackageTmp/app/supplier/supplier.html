@@ -1,0 +1,54 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-sm-4" style=" left:-20px;">
+            <!--<h1>Manage Customers</h1>-->
+            <!-- Search customers -->
+            <h3>Search Supplier</h3>
+            <div class="input-group">
+                <input type="text" ng-model="searchText" class="form-control" placeholder="Enter search text">
+                <span class="input-group-addon" id="basic-addon">
+
+                    <i class="glyphicon glyphicon-search" ng-click="searchAnySupplier()"></i>
+
+                </span>
+
+            </div>
+        </div>
+
+
+        
+
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-2">
+            <button ng-click="addSupplier()" class="btn btn-success btn-sm">
+                <i class="glyphicon glyphicon-plus"></i> Add Supplier
+            </button>
+        </div>
+
+
+
+    </div>
+    <div class="row"> <p></p> </div>
+    
+    <div class="row">
+
+        <div class="col-sm-3" style="padding-top:3px;  border:1px solid #999; max-height:450px; height:450px; overflow-y:scroll">
+
+
+            <div class="col-sm-12 " ng-repeat="supplier in suppliers">
+                <as-supplier></as-supplier>    
+            </div>
+
+        </div>
+       
+        <div class="col-sm-9" style="border:1px solid #999; max-height:450px; height:450px;">
+
+            <div ui-view></div>
+            
+
+        </div>
+    
+    </div>
+</div>

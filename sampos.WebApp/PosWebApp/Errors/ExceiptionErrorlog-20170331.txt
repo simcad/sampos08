@@ -1,0 +1,180 @@
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:01 with the following information:
+
+
+The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.InsertCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 68
+
+ Souce:
+Microsoft JET Database Engine
+Insert sales commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:03 with the following information:
+
+
+The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.InsertCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 68
+
+ Souce:
+Microsoft JET Database Engine
+Insert sales commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:03 with the following information:
+
+
+The field is too small to accept the amount of data you attempted to add.  Try inserting or pasting less data.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.InsertCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 68
+
+ Souce:
+Microsoft JET Database Engine
+Insert sales commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:05 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'seles_commission'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.UpdateCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 119
+
+ Souce:
+Microsoft JET Database Engine
+Update commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:07 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'seles_commission'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.UpdateCommission()
+
+ Souce:
+Microsoft JET Database Engine
+Update commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:07 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'seles_commission'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.UpdateCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 119
+
+ Souce:
+Microsoft JET Database Engine
+Update commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:09 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'seles_commission'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.UpdateCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 119
+
+ Souce:
+Microsoft JET Database Engine
+Update commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:09 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'seles_commission'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.UpdateCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 119
+
+ Souce:
+Microsoft JET Database Engine
+Update commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:09 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'seles_commission'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.UpdateCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 119
+
+ Souce:
+Microsoft JET Database Engine
+Update commission
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 31 March 2017 at 00:11 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'seles_commission'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CommissionModel.UpdateCommission() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Commission.cs:line 119
+
+ Souce:
+Microsoft JET Database Engine
+Update commission

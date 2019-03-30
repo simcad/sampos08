@@ -1,0 +1,51 @@
+﻿
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" style="left:-20px;">
+            <!--<h1>Manage Customers</h1>-->
+            <!-- Search customers -->
+            <h3>Search Stock</h3>
+            <div class="input-group">
+                <input type="text"
+                       ng-model="searchText"
+                       class="form-control"
+                       placeholder="Enter search text">
+                <span class="input-group-addon" id="basic-addon">
+
+                    <i class="glyphicon glyphicon-search" ng-click="searchAnyStock()"></i>
+
+                </span>
+
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-2">
+            <button ng-click="addStock()" class="btn btn-success btn-sm" ng-show="readyToAdd">
+                <i class="glyphicon glyphicon-plus"></i> Add Stock
+            </button>
+        </div>
+
+
+
+    </div>
+    <div class="row"> <p></p> </div>
+
+    <div class="row">
+        <div class="col-sm-3" style=" padding-top:3px; border:1px solid #999;  height:450px; max-height:500px; overflow-y:scroll;" id="panelheightlist">
+
+
+            <div class="col-sm-12 customer-row" ng-repeat="stock in stocks">
+
+                <as-stock></as-stock>
+            </div>
+        </div>
+        <div class="col-sm-9" style="border:1px solid #999;  height:450px; max-height:500px;"  id="panelheight">
+
+            <div ui-view></div>
+
+        </div>
+    </div>
+</div>

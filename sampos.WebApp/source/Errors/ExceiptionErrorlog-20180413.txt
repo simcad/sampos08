@@ -1,0 +1,13 @@
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Friday 13 April 2018 at 23:40 with the following information:
+
+
+Object reference not set to an instance of an object.
+
+ Stack Trace:
+   at samposoapp.Controllers.GroupDataController.SaveGroupById(Group _group) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\GroupDataController.cs:line 163
+   at samposoapp.Controllers.GroupController.SaveGroup(Group _group) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\GroupController.cs:line 122
+
+ Souce:
+sampos.WebApp
+calling save

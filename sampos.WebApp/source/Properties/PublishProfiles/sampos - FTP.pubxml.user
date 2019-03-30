@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO38SGfJDsEC2iiqmV/q9jQAAAAACAAAAAAAQZgAAAAEAACAAAADH2FV84IuhfhsvUKLbkki6g8OPl/K3bZ41ou9vAm8zsgAAAAAOgAAAAAIAACAAAADTE9uXsi7e6FpVQKOc41mEY9oNDkoFkFLRHYUHQUA9A4AAAADn/RE5cRsVRWrk2IEU4tFvykh7pjbJeBrRaS+Tyx6O6lnMwdR8taxnoo+LAVIaefNJWI4tvisRTOhDRyBFW3STvVuiP+OkwvBdr+3gIr9JLB21yKtwLK6UdlTrMamRhzAAvWwCGASRlJ8iTjHtk/b3gxnR+S0397hvjs5pRPdy3UAAAAAS/uq9nfoaKMdFfoWAKdf6ERhdJ3OOUXVSIYkWBMoV447sORVDpQMoemWU+LrC7JZlpuWNrpnqSvB7cAMwnDZK</EncryptedPassword>
+    <_PublishTargetUrl>C:\Users\Peng\Downloads\WebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache">
+      <publishTime>01/04/2019 20:28:27</publishTime>
+    </File>
+    <File Include="obj/Debug/sampos.WebApp.csproj.CopyComplete">
+      <publishTime>01/04/2019 20:28:32</publishTime>
+    </File>
+    <File Include="obj/Debug/sampos.WebApp.csproj.CoreCompileInputs.cache">
+      <publishTime>01/04/2019 20:28:32</publishTime>
+    </File>
+    <File Include="obj/Debug/sampos.WebApp.csproj.FileListAbsolute.txt">
+      <publishTime>01/04/2019 20:28:33</publishTime>
+    </File>
+    <File Include="obj/Debug/sampos.WebApp.dll">
+      <publishTime>01/04/2019 20:28:32</publishTime>
+    </File>
+    <File Include="obj/Debug/sampos.WebApp.pdb">
+      <publishTime>01/04/2019 20:28:32</publishTime>
+    </File>
+    <File Include="obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs">
+      <publishTime>03/10/2017 16:17:05</publishTime>
+    </File>
+    <File Include="obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs">
+      <publishTime>03/10/2017 16:17:05</publishTime>
+    </File>
+    <File Include="obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs">
+      <publishTime>03/10/2017 16:17:05</publishTime>
+    </File>
+    <File Include="obj/Release/DesignTimeResolveAssemblyReferences.cache">
+      <publishTime>10/17/2017 23:40:15</publishTime>
+    </File>
+    <File Include="obj/Release/DesignTimeResolveAssemblyReferencesInput.cache">
+      <publishTime>01/04/2019 23:34:42</publishTime>
+    </File>
+    <File Include="obj/Release/sampos.WebApp.csproj.FileListAbsolute.txt">
+      <publishTime>01/04/2019 23:20:56</publishTime>
+    </File>
+    <File Include="obj/Release/sampos.WebApp.csprojResolveAssemblyReference.cache">
+      <publishTime>09/30/2017 09:05:51</publishTime>
+    </File>
+    <File Include="obj/Release/sampos.WebApp.dll">
+      <publishTime>01/04/2019 23:33:38</publishTime>
+    </File>
+    <File Include="obj/Release/sampos.WebApp.pdb">
+      <publishTime>01/04/2019 23:33:38</publishTime>
+    </File>
+    <File Include="obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs">
+      <publishTime>03/10/2017 23:37:28</publishTime>
+    </File>
+    <File Include="obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs">
+      <publishTime>03/10/2017 23:37:28</publishTime>
+    </File>
+    <File Include="obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs">
+      <publishTime>03/10/2017 23:37:28</publishTime>
+    </File>
+    <File Include="obj/Release/TransformWebConfig/assist/Web.config">
+      <publishTime>04/13/2018 12:20:52</publishTime>
+    </File>
+    <File Include="obj/Release/TransformWebConfig/original/Web.config">
+      <publishTime>04/14/2018 13:30:48</publishTime>
+    </File>
+    <File Include="obj/Release/TransformWebConfig/transformed/Web.config">
+      <publishTime>01/04/2019 23:33:38</publishTime>
+    </File>
+    <File Include="obj/Release/_WPPLastBuildInfo.txt">
+      <publishTime>01/04/2019 23:34:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

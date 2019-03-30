@@ -1,0 +1,22 @@
+﻿
+<div class="form-horizontal">
+    <fieldset>
+        <legend>Detail</legend>
+
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th># </th>
+                <th>Invoice reference</th>
+                <th>Date</th>
+                <th>Id</th>
+            </tr>
+            <tr ng-repeat="contact in contacts">
+                <td>#{{$index + 1}}</td>
+                <td>{{contact.reference}}</td>
+                <td>{{contact.customer_detail_date}}</td>
+                <td>{{contact.customer_id}}</td>
+            </tr>
+        </table>
+
+    </fieldset>
+</div>

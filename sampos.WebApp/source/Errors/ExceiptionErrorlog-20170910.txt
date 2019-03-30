@@ -1,0 +1,557 @@
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:09 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:09 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(Int32 id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 201
+   at samposoapp.Controllers.CustomerController.GetDetail(Int32 id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 59
+
+ Souce:
+System.Data
+calling GetDeatil - customer
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:10 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:11 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:12 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:12 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:12 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 00:12 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at samposoapp.Controllers.CustomerDataController.GetCustomerById(String id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerDataController.cs:line 282
+   at samposoapp.Controllers.CustomerController.SearchCustomers(String searchText) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\CustomerController.cs:line 36
+
+ Souce:
+System.Data
+calling search
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 11:27 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 11:27 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.SysMessageModel.GetSystemMessage(Int32 id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\SysMessage.cs:line 193
+   at samposoapp.Controllers.SysMessageDataController.GetSysmessageId(Int32 id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\SysmessageDataController.cs:line 41
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 11:27 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 11:27 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 11:27 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.SysMessageModel.GetSystemMessage(Int32 id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\SysMessage.cs:line 193
+   at samposoapp.Controllers.SysMessageDataController.GetSysmessageId(Int32 id) in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Controllers\SysmessageDataController.cs:line 41
+
+ Souce:
+System.Data
+GetCommissionId - model
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Sunday 10 September 2017 at 11:27 with the following information:
+
+
+Unspecified error
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at samposoapp.db.SqlDatabaseUtility.GetConnection_db() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\dbTools\AdoDB.cs:line 78
+
+ Souce:
+Microsoft JET Database Engine
+calling GetConnection_db

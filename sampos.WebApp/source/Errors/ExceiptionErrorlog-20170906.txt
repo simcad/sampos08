@@ -1,0 +1,108 @@
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Wednesday 06 September 2017 at 21:09 with the following information:
+
+
+Syntax error (missing operator) in query expression '@credit_card_charges_desc  credit_card_charges_comm=@credit_card_charges_comm'.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.UpdateCreditcard() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 136
+
+ Souce:
+Microsoft JET Database Engine
+Update credit card
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Wednesday 06 September 2017 at 21:10 with the following information:
+
+
+Syntax error (missing operator) in query expression '@credit_card_charges_desc  credit_card_charges_comm=@credit_card_charges_comm'.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.UpdateCreditcard() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 136
+
+ Souce:
+Microsoft JET Database Engine
+Update credit card
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Wednesday 06 September 2017 at 21:41 with the following information:
+
+
+Syntax error (missing operator) in query expression '@credit_card_charges_commwhere credit_card_id='Has''.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.UpdateCreditcard()
+
+ Souce:
+Microsoft JET Database Engine
+Update credit card
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Wednesday 06 September 2017 at 21:41 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'redit_card_charges'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.UpdateCreditcard()
+
+ Souce:
+Microsoft JET Database Engine
+Update credit card
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Wednesday 06 September 2017 at 21:42 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'redit_card_charges'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.UpdateCreditcard()
+
+ Souce:
+Microsoft JET Database Engine
+Update credit card
+----------------------------------------------------------------------------------------------------
+A Handled Exception has occured on Wednesday 06 September 2017 at 22:20 with the following information:
+
+
+The Microsoft Jet database engine cannot find the input table or query 'redit_card_charges'.  Make sure it exists and that its name is spelled correctly.
+
+ Stack Trace:
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Angularjs.UIRouting.WebApp.Models.CreditcardModel.UpdateCreditcard() in c:\Users\Peter\Downloads\webSampos\peterphan01\samposapp\Angularjs.UIRouting.WebApp\Angularjs.UIRouting.WebApp\Models\Creditcard.cs:line 145
+
+ Souce:
+Microsoft JET Database Engine
+Update credit card

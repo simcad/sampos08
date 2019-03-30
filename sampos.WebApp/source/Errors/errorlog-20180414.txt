@@ -1,0 +1,15 @@
+----------------------------------------------------------------------------------------------------
+Error log on Saturday 14 April 2018 at 11:59 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+----------------------------------------------------------------------------------------------------
+Error log on Saturday 14 April 2018 at 12:00 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
+----------------------------------------------------------------------------------------------------
+Error log on Saturday 14 April 2018 at 12:00 with the following information:
+
+
+ExecuteNonQuery: Connection property has not been initialized.
